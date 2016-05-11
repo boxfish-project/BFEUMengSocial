@@ -1,6 +1,6 @@
 {
   "name": "BFEUMengSocial",
-  "version": "4.2.3",
+  "version": "5.0",
   "summary": "Fork UMeng's official Social SDK for iOS.",
   "description": "UMeng Social SDK,You can easily share any content to Sina Weibo, Tencent Weibo, Renren, Qzone, Doubban, Wechat and so on using our unified APIs.",
   "requires_arc": false,
@@ -13,59 +13,43 @@
     "UMeng": "support@umeng.com"
   },
   "source": {
-    "http": "http://boxfish.oss-cn-hangzhou.aliyuncs.com/umeng_ios_social_sdk_4.2.3_arm64_custom.zip"
+    "http": "http://boxfish.oss-cn-hangzhou.aliyuncs.com/Umeng_SDK_Social_iOS_ARM64_5.0.zip"
   },
   "source_files": [
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/Header/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Sina/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Instagram/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Line/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Whatsapp/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Tumblr/*.h",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/LaiWang/*.h"
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/Header/*.h",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk/*.h",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk/*.h",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h",
   ],
   "resources": [
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/UMSocialSDKResourcesNew.bundle",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/*.xib",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/{en,zh-Hans}.lproj"
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/UMSocialSDKResourcesNew.bundle",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/*.xib",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/{en,zh-Hans}.lproj"
   ],
   "preserve_paths": [
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/libUMSocial_Sdk_4.2.3.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/libUMSocial_Sdk_Comment_4.2.3.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat/libSocialWechat.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat/libWeChatSDK.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Sina/libSocialSina.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Instagram/libSocialInstagram.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Line/libSocialLine.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Whatsapp/libSocialWhatsapp.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Tumblr/libSocialTumblr.a",
-    "umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/LaiWang/libSocialLaiWang.a"
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/libUMSocial_Sdk_5.0.a",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/libUMSocial_Sdk_Comment_5.0.a",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Wechat/libSocialWechat.a",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Wechat/libWeChatSDK.a",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a",
+    "Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
   ],
   "libraries": [
-    "UMSocial_Sdk_4.2.3",
-    "UMSocial_Sdk_Comment_4.2.3",
+    "UMSocial_Sdk_5.0",
+    "UMSocial_Sdk_Comment_5.0",
     "SocialQQ",
     "SocialWechat",
     "z",
     "sqlite3",
     "stdc++",
     "iconv",
-    "WeChatSDK",
-    "SocialSina",
-    "SocialInstagram",
-    "SocialLine",
-    "SocialWhatsapp",
-    "SocialTumblr",
-    "SocialLaiWang"
+    "WeChatSDK"
   ],
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/ $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Sina/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Line/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Whatsapp/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Instagram/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Tumblr/** $(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
-    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/UmengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/"
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/ $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Wechat/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Sina/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Line/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Whatsapp/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Instagram/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Tumblr/** $(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/"
   },
   "frameworks": [
     "SystemConfiguration",
